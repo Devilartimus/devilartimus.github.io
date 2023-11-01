@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style_login_signup.css">
+    <title>Eazy Report</title>
+    <link rel="icon" href="images/mini_logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Fugaz+One&family=Jost&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <style>
+        body{
+            background-image:url('images/back.jpg');
+        }
+    </style>
+
+<div class="container">
+    <header class="page-header">
+        <a href="index.html" onclick="redirectToHomePage()">
+            <img src="images/Logo1.jpg" alt="Логотип" class="page-header__logo">
+        </a>
+    </header>
+
+    <main>
+
+        <div class="wrapper">
+            <div class="card-switch">
+                <label class="switch">
+                   <input class="toggle" type="checkbox">
+                   <span class="slider"></span>
+                   <span class="card-side"></span>
+                   <div class="flip-card__inner">
+                      <div class="flip-card__front">
+                         <div class="title">Вход</div>
+                         <form action="" class="flip-card__form">
+                            <input type="email" placeholder="Email" name="email" class="flip-card__input">
+                            <input type="password" placeholder="Password" name="password" class="flip-card__input">
+                            <button class="flip-card__btn">Войти</button>
+                         </form>
+                      </div>
+                      <div class="flip-card__back">
+                         <div class="title">Регистрация</div>
+                         <form action="" class="flip-card__form">
+                            <input type="name" placeholder="Name" class="flip-card__input">
+                            <input type="email" placeholder="Email" name="email" class="flip-card__input">
+                            <input type="password" placeholder="Password" name="password" class="flip-card__input">
+                            <button class="flip-card__btn">Регистрация</button>
+                         </form>
+                      </div>
+                   </div>
+                </label>
+            </div>   
+       </div>
+
+    </main>
+
+</div>
+
+<script>
+    function redirectToHomePage() {
+        window.location.href = 'index.html'; 
+    }
+</script>
+
+</body>
