@@ -1,6 +1,6 @@
 .wrapper {
     font-family: Jost;
-  --input-focus: #6CB1F4;
+  --input-focus: #BEAAD5;
   --font-color: #fefefe;
   --font-color-sub: #7e7e7e;
   --bg-color: #fefefe;
@@ -55,6 +55,7 @@
 
 /* прямоугольник */
 .slider {
+  align-items:center;
   box-sizing: border-box;
   border-radius: 5px;
   border: 2px solid var(--main-color);
@@ -135,10 +136,11 @@
   background: var(--bg-color);
   gap: 20px;
   border-radius: 90px;
-  border: 2px solid var(--main-color);
+  border: none;
 }
 
 .flip-card__back {
+  padding: 30px;
   width: 100%;
   transform: rotateY(180deg);
 }
@@ -161,9 +163,9 @@
 .flip-card__input {
   width: 250px;
   height: 40px;
-  border-radius: 5px;
-  border: 2px solid var(--main-color);
-  background-color: var(--bg-color);
+  border-radius: 29px;
+  border: none;
+  background: rgba(0, 0, 0, 0.22);
   font-size: 15px;
   font-weight: 600;
   color: var(--font-color);
@@ -187,13 +189,22 @@
 
 .flip-card__btn {
   margin: 20px 0 20px 0;
-  width: 120px;
-  height: 40px;
-  border-radius: 5px;
-  border: 2px solid var(--main-color);
+  padding: 5px 20px;
+  border-radius: 36px;
+  border: none;
   background-color: #BEAAD5;
-  font-size: 17px;
+  font-size: 25px;
   font-weight: 600;
   color: var(--font-color);
   cursor: pointer;
+  box-shadow: 0 4px 6px rgba(108, 177, 244, .2);
+  transition: all .1s ease-in-out;
 } 
+
+.flip-card__btn:hover{
+  transform: scale(1.04);
+  color: #ffffff;
+  box-shadow: 0 9px 9px rgba(255, 255, 255, 0.089);
+  }
+
+  
