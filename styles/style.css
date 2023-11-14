@@ -41,3 +41,7 @@ transform: scale(1.04);
 color: #ffffff;
 box-shadow: 0 9px 9px rgba(255, 255, 255, 0.089);
 }
+
+.page_footer{
+    margin-top: 650px;
+}
