@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/Devilartimus/devilartimus.github.io",
+  "silent": false,
+  "commits": "conventional-commits",
+  "tag": true,
+  "version": true,
+  "push": true,
+  "release": false,
+  "publish": false,
+  "prerelease": "beta"
+}
