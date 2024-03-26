@@ -124,7 +124,7 @@ installSchemaOrg(
   { app, router },
   {
     canonicalHost: env.getProdUrl() as `https://${string}`,
-    defaultLanguage: 'pt-BR',
+    defaultLanguage: 'ru-Ru',
   }
 )
 
