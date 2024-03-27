@@ -7,7 +7,7 @@ export default createI18n({
   fallbackLocale: 'ru',
   locales: VueI18nLocales,
   messages: {
-    br: ptBR.default,
+    ry: ruRu.default,
     en: enUS.default,
   },
 })
